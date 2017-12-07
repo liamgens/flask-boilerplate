@@ -1,4 +1,4 @@
-from flask import flask, jsonify
+from flask import Flask, jsonify
 from flask_sqlalchemy import SQLAlchemy
 from config import SQLALCHEMY_DATABASE_URI
 from models import db
